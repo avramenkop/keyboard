@@ -1,0 +1,111 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.keyboard {
+    height: 450px;
+    width: 95%;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    border-radius: 35px;
+    background: #5c636d;
+    margin: 50px 0;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.key {
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 35px;
+    color: #ffffff;
+}
+
+.small {
+    height: 30px;
+    width: 65px;
+}
+
+.round {
+    width: 65px;
+}
+
+.oblong {
+    padding: 0 20px;
+}
+
+.oblong.backspace {
+    width: 120px;
+    justify-content: flex-end;
+}
+
+.oblong.capslock {
+    width: 120px;
+    justify-content: flex-start;
+}
+
+.oblong.tab {
+    width: 100px;
+    justify-content: flex-start;
+}
+
+.oblong.backslash {
+    width: 90px;
+}
+
+.oblong.enter {
+    width: 140px;
+    justify-content: flex-end;
+}
+
+.oblong.l-shift {
+    width: 160px;
+    justify-content: flex-start;
+}
+
+.oblong.r-shift {
+    width: 160px;
+    justify-content: flex-end;
+}
+
+.oblong.space {
+    width: 450px;
+}
+
+.cursor-control .top-row {
+    display: flex;
+    justify-content: center;
+}
+
+.cursor-control .bottom-row {
+    display: flex;
+}
+
+.arrow {
+    height: 15px;
+    width: 15px;
+    filter: invert(100%);
+}
+
+
+
+
+.active {
+    background: #f5f5dc;
+    color: #333333;
+}
+
+
